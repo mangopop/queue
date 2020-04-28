@@ -54,3 +54,7 @@ when in supervisorctrl
     reload (if you change the conf)
     restart
     update (if you change the conf)
+
+# Running it all
+
+Once everything is installed and beanstalked and supervisord are running, tail -f the process.log to see output and then start up the index.php file from the cmd line
