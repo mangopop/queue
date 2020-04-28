@@ -24,6 +24,8 @@ supervisord.conf:
   10 stdout_logfile=[working_directory]/logs/worker.out.log
   11 stderr_logfile=[working_directory]/logs/worker.err.log
 
+[working_directory] you will need to update this.
+
 commands:
 start supervisord -> supervisord -d
 manage processes -> supervisorctrl
