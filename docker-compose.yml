@@ -1,0 +1,5 @@
+version: '2'
+
+services:
+    php:
+        image: mangopop/queue:1.3

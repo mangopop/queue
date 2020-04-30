@@ -17,9 +17,7 @@ while (true) {
 
     sleep(rand(0,2));
 
-    file_put_contents("process.log", $message." -> received.\n");
+    file_put_contents("process.log", $message." -> received.\n", FILE_APPEND);
 
     $queue->useTube('testtube')->put($message);
 }
-
-?>

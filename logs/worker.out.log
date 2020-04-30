@@ -292,3 +292,297 @@ Stack trace:
 #4 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(369): Pheanstalk\Connection->dispatchCommand(Object(Pheanstalk\Command\WatchCommand))
 #5 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(332): Pheanstalk\Pheanstalk->dispatch(Object(Pheanstalk\Command\WatchCommand))
 #6 /Users/simon/Code/bea in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php on line 50
+PHP Warning:  socket_read(): unable to read from socket [54]: Connection reset by peer in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php on line 117
+PHP Warning:  socket_read(): unable to read from socket [54]: Connection reset by peer in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php on line 117
+
+Warning: socket_read(): unable to read from socket [54]: Connection reset by peer in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php on line 117
+PHP Warning:  socket_read(): unable to read from socket [54]: Connection reset by peer in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php on line 117
+
+Warning: socket_read(): unable to read from socket [54]: Connection reset by peer in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php on line 117
+
+Warning: socket_read(): unable to read from socket [54]: Connection reset by peer in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php on line 117
+PHP Fatal error:  Uncaught Pheanstalk\Exception\ConnectionException: Socket error 61: Connection refused in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php:50
+Stack trace:
+#0 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(69): Pheanstalk\Socket\SocketSocket->__construct('127.0.0.1', 11300, 10)
+#1 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(85): Pheanstalk\SocketFactory->createSocketSocket()
+#2 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(129): Pheanstalk\SocketFactory->create()
+#3 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(74): Pheanstalk\Connection->getSocket()
+#4 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(369): Pheanstalk\Connection->dispatchCommand(Object(Pheanstalk\Command\WatchCommand))
+#5 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(332): Pheanstalk\Pheanstalk->dispatch(Object(Pheanstalk\Command\WatchCommand))
+#6 /Users/simon/Code/bea in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php on line 50
+
+Fatal error: Uncaught Pheanstalk\Exception\ConnectionException: Socket error 61: Connection refused in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php:50
+Stack trace:
+#0 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(69): Pheanstalk\Socket\SocketSocket->__construct('127.0.0.1', 11300, 10)
+#1 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(85): Pheanstalk\SocketFactory->createSocketSocket()
+#2 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(129): Pheanstalk\SocketFactory->create()
+#3 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(74): Pheanstalk\Connection->getSocket()
+#4 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(369): Pheanstalk\Connection->dispatchCommand(Object(Pheanstalk\Command\WatchCommand))
+#5 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(332): Pheanstalk\Pheanstalk->dispatch(Object(Pheanstalk\Command\WatchCommand))
+#6 /Users/simon/Code/bea in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php on line 50
+PHP Fatal error:  Uncaught Pheanstalk\Exception\ConnectionException: Socket error 61: Connection refused in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php:50
+Stack trace:
+#0 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(69): Pheanstalk\Socket\SocketSocket->__construct('127.0.0.1', 11300, 10)
+#1 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(85): Pheanstalk\SocketFactory->createSocketSocket()
+#2 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(129): Pheanstalk\SocketFactory->create()
+#3 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(74): Pheanstalk\Connection->getSocket()
+#4 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(369): Pheanstalk\Connection->dispatchCommand(Object(Pheanstalk\Command\WatchCommand))
+#5 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(332): Pheanstalk\Pheanstalk->dispatch(Object(Pheanstalk\Command\WatchCommand))
+#6 /Users/simon/Code/bea in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php on line 50
+
+Fatal error: Uncaught Pheanstalk\Exception\ConnectionException: Socket error 61: Connection refused in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php:50
+Stack trace:
+#0 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(69): Pheanstalk\Socket\SocketSocket->__construct('127.0.0.1', 11300, 10)
+#1 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(85): Pheanstalk\SocketFactory->createSocketSocket()
+#2 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(129): Pheanstalk\SocketFactory->create()
+#3 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(74): Pheanstalk\Connection->getSocket()
+#4 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(369): Pheanstalk\Connection->dispatchCommand(Object(Pheanstalk\Command\WatchCommand))
+#5 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(332): Pheanstalk\Pheanstalk->dispatch(Object(Pheanstalk\Command\WatchCommand))
+#6 /Users/simon/Code/bea in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php on line 50
+PHP Fatal error:  Uncaught Pheanstalk\Exception\ConnectionException: Socket error 61: Connection refused in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php:50
+Stack trace:
+#0 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(69): Pheanstalk\Socket\SocketSocket->__construct('127.0.0.1', 11300, 10)
+#1 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(85): Pheanstalk\SocketFactory->createSocketSocket()
+#2 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(129): Pheanstalk\SocketFactory->create()
+#3 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(74): Pheanstalk\Connection->getSocket()
+#4 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(369): Pheanstalk\Connection->dispatchCommand(Object(Pheanstalk\Command\WatchCommand))
+#5 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(332): Pheanstalk\Pheanstalk->dispatch(Object(Pheanstalk\Command\WatchCommand))
+#6 /Users/simon/Code/bea in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php on line 50
+
+Fatal error: Uncaught Pheanstalk\Exception\ConnectionException: Socket error 61: Connection refused in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php:50
+Stack trace:
+#0 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(69): Pheanstalk\Socket\SocketSocket->__construct('127.0.0.1', 11300, 10)
+#1 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(85): Pheanstalk\SocketFactory->createSocketSocket()
+#2 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(129): Pheanstalk\SocketFactory->create()
+#3 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(74): Pheanstalk\Connection->getSocket()
+#4 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(369): Pheanstalk\Connection->dispatchCommand(Object(Pheanstalk\Command\WatchCommand))
+#5 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(332): Pheanstalk\Pheanstalk->dispatch(Object(Pheanstalk\Command\WatchCommand))
+#6 /Users/simon/Code/bea in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php on line 50
+PHP Fatal error:  Uncaught Pheanstalk\Exception\ConnectionException: Socket error 61: Connection refused in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php:50
+Stack trace:
+#0 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(69): Pheanstalk\Socket\SocketSocket->__construct('127.0.0.1', 11300, 10)
+#1 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(85): Pheanstalk\SocketFactory->createSocketSocket()
+#2 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(129): Pheanstalk\SocketFactory->create()
+#3 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(74): Pheanstalk\Connection->getSocket()
+#4 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(369): Pheanstalk\Connection->dispatchCommand(Object(Pheanstalk\Command\WatchCommand))
+#5 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(332): Pheanstalk\Pheanstalk->dispatch(Object(Pheanstalk\Command\WatchCommand))
+#6 /Users/simon/Code/bea in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php on line 50
+
+Fatal error: Uncaught Pheanstalk\Exception\ConnectionException: Socket error 61: Connection refused in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php:50
+Stack trace:
+#0 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(69): Pheanstalk\Socket\SocketSocket->__construct('127.0.0.1', 11300, 10)
+#1 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(85): Pheanstalk\SocketFactory->createSocketSocket()
+#2 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(129): Pheanstalk\SocketFactory->create()
+#3 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(74): Pheanstalk\Connection->getSocket()
+#4 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(369): Pheanstalk\Connection->dispatchCommand(Object(Pheanstalk\Command\WatchCommand))
+#5 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(332): Pheanstalk\Pheanstalk->dispatch(Object(Pheanstalk\Command\WatchCommand))
+#6 /Users/simon/Code/bea in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php on line 50
+PHP Fatal error:  Uncaught Pheanstalk\Exception\ConnectionException: Socket error 61: Connection refused in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php:50
+Stack trace:
+#0 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(69): Pheanstalk\Socket\SocketSocket->__construct('127.0.0.1', 11300, 10)
+#1 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(85): Pheanstalk\SocketFactory->createSocketSocket()
+#2 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(129): Pheanstalk\SocketFactory->create()
+#3 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(74): Pheanstalk\Connection->getSocket()
+#4 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(369): Pheanstalk\Connection->dispatchCommand(Object(Pheanstalk\Command\WatchCommand))
+#5 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(332): Pheanstalk\Pheanstalk->dispatch(Object(Pheanstalk\Command\WatchCommand))
+#6 /Users/simon/Code/bea in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php on line 50
+
+Fatal error: Uncaught Pheanstalk\Exception\ConnectionException: Socket error 61: Connection refused in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php:50
+Stack trace:
+#0 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(69): Pheanstalk\Socket\SocketSocket->__construct('127.0.0.1', 11300, 10)
+#1 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(85): Pheanstalk\SocketFactory->createSocketSocket()
+#2 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(129): Pheanstalk\SocketFactory->create()
+#3 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(74): Pheanstalk\Connection->getSocket()
+#4 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(369): Pheanstalk\Connection->dispatchCommand(Object(Pheanstalk\Command\WatchCommand))
+#5 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(332): Pheanstalk\Pheanstalk->dispatch(Object(Pheanstalk\Command\WatchCommand))
+#6 /Users/simon/Code/bea in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php on line 50
+PHP Fatal error:  Uncaught Pheanstalk\Exception\ConnectionException: Socket error 61: Connection refused in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php:50
+Stack trace:
+#0 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(69): Pheanstalk\Socket\SocketSocket->__construct('127.0.0.1', 11300, 10)
+#1 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(85): Pheanstalk\SocketFactory->createSocketSocket()
+#2 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(129): Pheanstalk\SocketFactory->create()
+#3 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(74): Pheanstalk\Connection->getSocket()
+#4 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(369): Pheanstalk\Connection->dispatchCommand(Object(Pheanstalk\Command\WatchCommand))
+#5 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(332): Pheanstalk\Pheanstalk->dispatch(Object(Pheanstalk\Command\WatchCommand))
+#6 /Users/simon/Code/bea in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php on line 50
+
+Fatal error: Uncaught Pheanstalk\Exception\ConnectionException: Socket error 61: Connection refused in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php:50
+Stack trace:
+#0 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(69): Pheanstalk\Socket\SocketSocket->__construct('127.0.0.1', 11300, 10)
+#1 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(85): Pheanstalk\SocketFactory->createSocketSocket()
+#2 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(129): Pheanstalk\SocketFactory->create()
+#3 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(74): Pheanstalk\Connection->getSocket()
+#4 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(369): Pheanstalk\Connection->dispatchCommand(Object(Pheanstalk\Command\WatchCommand))
+#5 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(332): Pheanstalk\Pheanstalk->dispatch(Object(Pheanstalk\Command\WatchCommand))
+#6 /Users/simon/Code/bea in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php on line 50
+PHP Fatal error:  Uncaught Pheanstalk\Exception\ConnectionException: Socket error 61: Connection refused in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php:50
+Stack trace:
+#0 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(69): Pheanstalk\Socket\SocketSocket->__construct('127.0.0.1', 11300, 10)
+#1 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(85): Pheanstalk\SocketFactory->createSocketSocket()
+#2 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(129): Pheanstalk\SocketFactory->create()
+#3 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(74): Pheanstalk\Connection->getSocket()
+#4 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(369): Pheanstalk\Connection->dispatchCommand(Object(Pheanstalk\Command\WatchCommand))
+#5 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(332): Pheanstalk\Pheanstalk->dispatch(Object(Pheanstalk\Command\WatchCommand))
+#6 /Users/simon/Code/bea in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php on line 50
+
+Fatal error: Uncaught Pheanstalk\Exception\ConnectionException: Socket error 61: Connection refused in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php:50
+Stack trace:
+#0 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(69): Pheanstalk\Socket\SocketSocket->__construct('127.0.0.1', 11300, 10)
+#1 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(85): Pheanstalk\SocketFactory->createSocketSocket()
+#2 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(129): Pheanstalk\SocketFactory->create()
+#3 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(74): Pheanstalk\Connection->getSocket()
+#4 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(369): Pheanstalk\Connection->dispatchCommand(Object(Pheanstalk\Command\WatchCommand))
+#5 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(332): Pheanstalk\Pheanstalk->dispatch(Object(Pheanstalk\Command\WatchCommand))
+#6 /Users/simon/Code/bea in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php on line 50
+PHP Fatal error:  Uncaught Pheanstalk\Exception\ConnectionException: Socket error 61: Connection refused in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php:50
+Stack trace:
+#0 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(69): Pheanstalk\Socket\SocketSocket->__construct('127.0.0.1', 11300, 10)
+#1 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(85): Pheanstalk\SocketFactory->createSocketSocket()
+#2 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(129): Pheanstalk\SocketFactory->create()
+#3 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(74): Pheanstalk\Connection->getSocket()
+#4 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(369): Pheanstalk\Connection->dispatchCommand(Object(Pheanstalk\Command\WatchCommand))
+#5 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(332): Pheanstalk\Pheanstalk->dispatch(Object(Pheanstalk\Command\WatchCommand))
+#6 /Users/simon/Code/bea in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php on line 50
+
+Fatal error: Uncaught Pheanstalk\Exception\ConnectionException: Socket error 61: Connection refused in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php:50
+Stack trace:
+#0 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(69): Pheanstalk\Socket\SocketSocket->__construct('127.0.0.1', 11300, 10)
+#1 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(85): Pheanstalk\SocketFactory->createSocketSocket()
+#2 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(129): Pheanstalk\SocketFactory->create()
+#3 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(74): Pheanstalk\Connection->getSocket()
+#4 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(369): Pheanstalk\Connection->dispatchCommand(Object(Pheanstalk\Command\WatchCommand))
+#5 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(332): Pheanstalk\Pheanstalk->dispatch(Object(Pheanstalk\Command\WatchCommand))
+#6 /Users/simon/Code/bea in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php on line 50
+PHP Fatal error:  Uncaught Pheanstalk\Exception\ConnectionException: Socket error 61: Connection refused in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php:50
+Stack trace:
+#0 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(69): Pheanstalk\Socket\SocketSocket->__construct('127.0.0.1', 11300, 10)
+#1 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(85): Pheanstalk\SocketFactory->createSocketSocket()
+#2 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(129): Pheanstalk\SocketFactory->create()
+#3 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(74): Pheanstalk\Connection->getSocket()
+#4 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(369): Pheanstalk\Connection->dispatchCommand(Object(Pheanstalk\Command\WatchCommand))
+#5 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(332): Pheanstalk\Pheanstalk->dispatch(Object(Pheanstalk\Command\WatchCommand))
+#6 /Users/simon/Code/bea in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php on line 50
+
+Fatal error: Uncaught Pheanstalk\Exception\ConnectionException: Socket error 61: Connection refused in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php:50
+Stack trace:
+#0 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(69): Pheanstalk\Socket\SocketSocket->__construct('127.0.0.1', 11300, 10)
+#1 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(85): Pheanstalk\SocketFactory->createSocketSocket()
+#2 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(129): Pheanstalk\SocketFactory->create()
+#3 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(74): Pheanstalk\Connection->getSocket()
+#4 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(369): Pheanstalk\Connection->dispatchCommand(Object(Pheanstalk\Command\WatchCommand))
+#5 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(332): Pheanstalk\Pheanstalk->dispatch(Object(Pheanstalk\Command\WatchCommand))
+#6 /Users/simon/Code/bea in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php on line 50
+PHP Fatal error:  Uncaught Pheanstalk\Exception\ConnectionException: Socket error 61: Connection refused in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php:50
+Stack trace:
+#0 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(69): Pheanstalk\Socket\SocketSocket->__construct('127.0.0.1', 11300, 10)
+#1 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(85): Pheanstalk\SocketFactory->createSocketSocket()
+#2 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(129): Pheanstalk\SocketFactory->create()
+#3 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(74): Pheanstalk\Connection->getSocket()
+#4 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(369): Pheanstalk\Connection->dispatchCommand(Object(Pheanstalk\Command\WatchCommand))
+#5 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(332): Pheanstalk\Pheanstalk->dispatch(Object(Pheanstalk\Command\WatchCommand))
+#6 /Users/simon/Code/bea in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php on line 50
+
+Fatal error: Uncaught Pheanstalk\Exception\ConnectionException: Socket error 61: Connection refused in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php:50
+Stack trace:
+#0 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(69): Pheanstalk\Socket\SocketSocket->__construct('127.0.0.1', 11300, 10)
+#1 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(85): Pheanstalk\SocketFactory->createSocketSocket()
+#2 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(129): Pheanstalk\SocketFactory->create()
+#3 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(74): Pheanstalk\Connection->getSocket()
+#4 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(369): Pheanstalk\Connection->dispatchCommand(Object(Pheanstalk\Command\WatchCommand))
+#5 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(332): Pheanstalk\Pheanstalk->dispatch(Object(Pheanstalk\Command\WatchCommand))
+#6 /Users/simon/Code/bea in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php on line 50
+PHP Fatal error:  Uncaught Pheanstalk\Exception\ConnectionException: Socket error 61: Connection refused in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php:50
+Stack trace:
+#0 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(69): Pheanstalk\Socket\SocketSocket->__construct('127.0.0.1', 11300, 10)
+#1 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(85): Pheanstalk\SocketFactory->createSocketSocket()
+#2 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(129): Pheanstalk\SocketFactory->create()
+#3 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(74): Pheanstalk\Connection->getSocket()
+#4 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(369): Pheanstalk\Connection->dispatchCommand(Object(Pheanstalk\Command\WatchCommand))
+#5 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(332): Pheanstalk\Pheanstalk->dispatch(Object(Pheanstalk\Command\WatchCommand))
+#6 /Users/simon/Code/bea in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php on line 50
+
+Fatal error: Uncaught Pheanstalk\Exception\ConnectionException: Socket error 61: Connection refused in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php:50
+Stack trace:
+#0 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(69): Pheanstalk\Socket\SocketSocket->__construct('127.0.0.1', 11300, 10)
+#1 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(85): Pheanstalk\SocketFactory->createSocketSocket()
+#2 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(129): Pheanstalk\SocketFactory->create()
+#3 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(74): Pheanstalk\Connection->getSocket()
+#4 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(369): Pheanstalk\Connection->dispatchCommand(Object(Pheanstalk\Command\WatchCommand))
+#5 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(332): Pheanstalk\Pheanstalk->dispatch(Object(Pheanstalk\Command\WatchCommand))
+#6 /Users/simon/Code/bea in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php on line 50
+PHP Fatal error:  Uncaught Pheanstalk\Exception\ConnectionException: Socket error 61: Connection refused in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php:50
+Stack trace:
+#0 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(69): Pheanstalk\Socket\SocketSocket->__construct('127.0.0.1', 11300, 10)
+#1 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(85): Pheanstalk\SocketFactory->createSocketSocket()
+#2 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(129): Pheanstalk\SocketFactory->create()
+#3 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(74): Pheanstalk\Connection->getSocket()
+#4 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(369): Pheanstalk\Connection->dispatchCommand(Object(Pheanstalk\Command\WatchCommand))
+#5 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(332): Pheanstalk\Pheanstalk->dispatch(Object(Pheanstalk\Command\WatchCommand))
+#6 /Users/simon/Code/bea in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php on line 50
+
+Fatal error: Uncaught Pheanstalk\Exception\ConnectionException: Socket error 61: Connection refused in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php:50
+Stack trace:
+#0 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(69): Pheanstalk\Socket\SocketSocket->__construct('127.0.0.1', 11300, 10)
+#1 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(85): Pheanstalk\SocketFactory->createSocketSocket()
+#2 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(129): Pheanstalk\SocketFactory->create()
+#3 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(74): Pheanstalk\Connection->getSocket()
+#4 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(369): Pheanstalk\Connection->dispatchCommand(Object(Pheanstalk\Command\WatchCommand))
+#5 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(332): Pheanstalk\Pheanstalk->dispatch(Object(Pheanstalk\Command\WatchCommand))
+#6 /Users/simon/Code/bea in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php on line 50
+PHP Fatal error:  Uncaught Pheanstalk\Exception\ConnectionException: Socket error 61: Connection refused in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php:50
+Stack trace:
+#0 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(69): Pheanstalk\Socket\SocketSocket->__construct('127.0.0.1', 11300, 10)
+#1 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(85): Pheanstalk\SocketFactory->createSocketSocket()
+#2 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(129): Pheanstalk\SocketFactory->create()
+#3 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(74): Pheanstalk\Connection->getSocket()
+#4 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(369): Pheanstalk\Connection->dispatchCommand(Object(Pheanstalk\Command\WatchCommand))
+#5 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(332): Pheanstalk\Pheanstalk->dispatch(Object(Pheanstalk\Command\WatchCommand))
+#6 /Users/simon/Code/bea in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php on line 50
+
+Fatal error: Uncaught Pheanstalk\Exception\ConnectionException: Socket error 61: Connection refused in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php:50
+Stack trace:
+#0 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(69): Pheanstalk\Socket\SocketSocket->__construct('127.0.0.1', 11300, 10)
+#1 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(85): Pheanstalk\SocketFactory->createSocketSocket()
+#2 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(129): Pheanstalk\SocketFactory->create()
+#3 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(74): Pheanstalk\Connection->getSocket()
+#4 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(369): Pheanstalk\Connection->dispatchCommand(Object(Pheanstalk\Command\WatchCommand))
+#5 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(332): Pheanstalk\Pheanstalk->dispatch(Object(Pheanstalk\Command\WatchCommand))
+#6 /Users/simon/Code/bea in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php on line 50
+PHP Fatal error:  Uncaught Pheanstalk\Exception\ConnectionException: Socket error 61: Connection refused in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php:50
+Stack trace:
+#0 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(69): Pheanstalk\Socket\SocketSocket->__construct('127.0.0.1', 11300, 10)
+#1 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(85): Pheanstalk\SocketFactory->createSocketSocket()
+#2 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(129): Pheanstalk\SocketFactory->create()
+#3 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(74): Pheanstalk\Connection->getSocket()
+#4 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(369): Pheanstalk\Connection->dispatchCommand(Object(Pheanstalk\Command\WatchCommand))
+#5 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(332): Pheanstalk\Pheanstalk->dispatch(Object(Pheanstalk\Command\WatchCommand))
+#6 /Users/simon/Code/bea in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php on line 50
+
+Fatal error: Uncaught Pheanstalk\Exception\ConnectionException: Socket error 61: Connection refused in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php:50
+Stack trace:
+#0 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(69): Pheanstalk\Socket\SocketSocket->__construct('127.0.0.1', 11300, 10)
+#1 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(85): Pheanstalk\SocketFactory->createSocketSocket()
+#2 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(129): Pheanstalk\SocketFactory->create()
+#3 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(74): Pheanstalk\Connection->getSocket()
+#4 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(369): Pheanstalk\Connection->dispatchCommand(Object(Pheanstalk\Command\WatchCommand))
+#5 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(332): Pheanstalk\Pheanstalk->dispatch(Object(Pheanstalk\Command\WatchCommand))
+#6 /Users/simon/Code/bea in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php on line 50
+PHP Fatal error:  Uncaught Pheanstalk\Exception\ConnectionException: Socket error 61: Connection refused in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php:50
+Stack trace:
+#0 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(69): Pheanstalk\Socket\SocketSocket->__construct('127.0.0.1', 11300, 10)
+#1 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(85): Pheanstalk\SocketFactory->createSocketSocket()
+#2 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(129): Pheanstalk\SocketFactory->create()
+#3 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(74): Pheanstalk\Connection->getSocket()
+#4 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(369): Pheanstalk\Connection->dispatchCommand(Object(Pheanstalk\Command\WatchCommand))
+#5 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(332): Pheanstalk\Pheanstalk->dispatch(Object(Pheanstalk\Command\WatchCommand))
+#6 /Users/simon/Code/bea in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php on line 50
+
+Fatal error: Uncaught Pheanstalk\Exception\ConnectionException: Socket error 61: Connection refused in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php:50
+Stack trace:
+#0 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(69): Pheanstalk\Socket\SocketSocket->__construct('127.0.0.1', 11300, 10)
+#1 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/SocketFactory.php(85): Pheanstalk\SocketFactory->createSocketSocket()
+#2 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(129): Pheanstalk\SocketFactory->create()
+#3 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Connection.php(74): Pheanstalk\Connection->getSocket()
+#4 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(369): Pheanstalk\Connection->dispatchCommand(Object(Pheanstalk\Command\WatchCommand))
+#5 /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Pheanstalk.php(332): Pheanstalk\Pheanstalk->dispatch(Object(Pheanstalk\Command\WatchCommand))
+#6 /Users/simon/Code/bea in /Users/simon/Code/beanstalkd/vendor/pda/pheanstalk/src/Socket/SocketSocket.php on line 50

@@ -1,22 +1,28 @@
+# Installation
+
+Use docker
+--------------------
+docker-compose up
+
+or
+
 Install beanstalkd
 ---------------------
 https://beanstalkd.github.io/
 
 start beanstalkd - beanstalkd -V
 
-Keeping the scripts running
----------------------
-To manage scripts you can use the script to run multiple workers or use...
-
-Supervisord
-=====================
-
-Install 
+Install supervisord
 ---------------------
 to handle process multiple processes via it's config file.
 http://supervisord.org/installing.html
 
-you can put this file in the same directory as the supervisord is run from
+# Usage
+
+Using supervisord
+---------------------
+
+same directory as the supervisord is run from all setup with docker paths from docker.
 
 supervisord.conf:
 
@@ -35,11 +41,17 @@ supervisord.conf:
 
 [working_directory] you will need to update this, duh
 
+
+Keeping the scripts running
+---------------------
+To manage scripts you can use the script to run multiple workers or use use recommended supervisord stuff
+
+
 Supervisord commands
------
+---------------------
 start supervisord in daemon mode
 
-    supervisord -d
+    supervisord
 
 manage processes
 
