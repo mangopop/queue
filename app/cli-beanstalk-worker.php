@@ -27,7 +27,7 @@ while($job = $pheanstalk->ignore('default')->reserve()) {
     // time takes to process job
     sleep(2);
     $pheanstalk->delete($job);    
-    file_put_contents("process.log", $job->getData()." -> done.\n", FILE_APPEND);
+    file_put_contents("process.log", $job->getData()." -> done.\n");
 
     // exit(98);
 // } 

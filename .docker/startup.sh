@@ -1,4 +1,4 @@
 #!/bin/bash
-service beanstalkd start
-supervisord -s
-php /usr/src/app/index.php
+beanstalkd & 
+supervisord &
+php /usr/src/app/index.php &

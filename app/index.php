@@ -1,6 +1,6 @@
 <?php
 // create 1 message a second
-require __DIR__ . '/vendor/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
 
 use Pheanstalk\Pheanstalk;
 
@@ -17,7 +17,7 @@ while (true) {
 
     sleep(rand(0,2));
 
-    file_put_contents("process.log", $message." -> received.\n", FILE_APPEND);
+    file_put_contents("process.log", $message." -> received.\n");
 
     $queue->useTube('testtube')->put($message);
 }

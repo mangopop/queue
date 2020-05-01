@@ -13,7 +13,7 @@ RUN apt-get update -qy \
 
 RUN pip3 install supervisor
 
-RUN sed -i 's/\#START=yes/START=yes/g' /etc/default/beanstalkd
+# RUN sed -i 's/\#START=yes/START=yes/g' /etc/default/beanstalkd
 COPY .docker/supervisord.conf /etc/supervisord.conf
 
 COPY --from=composer:1.10.1 /usr/bin/composer /usr/local/bin/composer
