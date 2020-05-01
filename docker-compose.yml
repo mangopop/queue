@@ -1,5 +1,10 @@
-version: '2'
+version: '3.3'
 
 services:
-    php:
-        image: mangopop/queue:1.3
+  php:
+    image: mangopop/queue:1.4
+    build:
+      context: .
+      dockerfile: ./.docker/Dockerfile
+    volumes:
+      - ./process.log:/usr/src/app/process.log
